@@ -1,29 +1,5 @@
 <!-- header start -->
 
-<nav class="navbar  navbar-inverse">
-	<div class="container">
+<a href="/" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
 
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
-				<span class="sr-only">Mobile menu</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-
-			<a class="navbar-brand" href="/">{{ site.title }}</a>
-		</div>
-
-		<div class="collapse navbar-collapse" id="collapse-navbar">
-			<ul class="nav navbar-nav">
-			{% for post in page.link %}
-				<li><a href="{{ page.link }}" itemprop="url">{{ page.link }}</a>
-			{% endfor %}
-			{% for post in page.categories %}
-				<li><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
-			{% endfor %}
-			</ul>
-		</div>
-	</div>
-</nav>
 <!-- header end -->

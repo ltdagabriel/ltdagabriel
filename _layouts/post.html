@@ -5,32 +5,38 @@
   {% include head.html %}
   <body itemscope itemtype="http://schema.org/Article">
     {% include header.html %}
+    <main class="content" role="main">
+      <article class="post">
         {% if page.image %}
-        
-		<div class="teaserimage">
-          <div class="teaserimage-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
+        <div class="teaserimage-image">
+          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
             {{ page.title }}
           </div>
-		</div>
-		
-        <header class="blog-header">
-            {% if page.logo %}
-			  <a class="blog-logo" href="{{ page.url }}" style="background-image: url('{{ page.logo }}')"></a>
-			{% endif %}
-			<h1 class="blog-title">{{ page.title }}</h1>
-        </header>
-        {% endif %}
-	<main class="content" role="main">
-	  <article class="post">
-       {% if page.image %}
-        
+          <div class="post-meta">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{ site.author.image }})">{{ site.author.name }}</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author.name }}</h4>
+              em
+              <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
+              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
         {% else %}
         <div class="noarticleimage">
-            {% if page.logo %}
-			  <a class="blog-logo" href="{{ page.url }}" style="background-image: url('{{ page.logo }}')"></a>
-			{% endif %}
-		  <div class="post-meta">
+          <div class="post-meta">
             <h1 class="post-title">{{ page.title }}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{ site.author.image }})">{{ site.author.name }}</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author.name }}</h4>
+              em
+              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
+            </div>
           </div>
         </div>
         <br>
@@ -38,7 +44,24 @@
         <br>
         {% endif %}
         <section class="post-content">
+          <div class="post-reading">
+            leitura de <span class="post-reading-time"></span>
+          </div>
+          <a name="topofpage"></a>
           
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Banner Blog -->
+          <ins class="adsbygoogle"
+               style="display:block; margin-bottom: 1em"
+               data-ad-client="ca-pub-0125841350971204"
+               data-ad-slot="5658468999"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+
+          <div class="alert"><i class="fa fa-comments-o"></i>Encontrou um problema no conteúdo? Por favor, <a href="#comments">deixe seu comentário</a>!</div>
+
           {{content}}
 
           {% include related.html %}
@@ -60,8 +83,7 @@
 
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Escrito por</span></h5>
-            
-			<section class="author">
+            <section class="author">
               <div class="author-image" style="background-image: url({{site.author.image}})">{{ site.title }}</div>
               <h4>{{ site.author.name }}</h4>
               <p class="bio">{{author.bio}}</p>
