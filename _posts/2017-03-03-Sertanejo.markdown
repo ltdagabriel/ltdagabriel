@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sertanejo
-author: refael
+author: gabriel
 date: '2017-03-03 19:20:00 -0300'
 imagem: assets/images/rock_1.jpg
 image: assets/images/Rock-Guitar-Wallpaper-PC.jpg

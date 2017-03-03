@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rock
-author: igor
+author: gabriel
 date: '2017-03-02 01:20:00 -0300'
 imagem: assets/images/rock_1.jpg
 image: assets/images/Rock-Guitar-Wallpaper-PC.jpg
