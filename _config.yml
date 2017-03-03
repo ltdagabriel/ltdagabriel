@@ -1,0 +1,49 @@
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jemoji
+
+# Conversion
+# markdown: redcarpet
+# highlighter: pygments
+excerpt_separator: ""
+
+# Outputting
+permalink: "/:title"
+paginate_path: "/pagina-:num"
+paginate: 10
+timezone: America/Sao_Paulo
+
+# Markdown Processors
+kramdown:
+  input: GFM
+
+# Site settings
+title: "Gabriel Choptian"
+description: Zona de teste WEB Developer
+logo: /assets/images/rock_the_clash.png
+cover: "/assets/images/wallpaper.png"
+url: "http://ltdagabriel.github.io"
+
+# Default author
+author:
+  name: Gabriel Choptian
+  image: /assets/images/gabriel.jpg
+
+# social icons and sharing options
+social:
+  - icon: facebook
+    url:  https://facebook.com/ltdagabriel
+    desc: Follow me on Facebook
+    share_url: https://facebook.com/sharer/sharer.php?
+    share_link: "&amp;u="
+
+  - icon: github
+    url:  https://github.com/ltdagabriel
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:

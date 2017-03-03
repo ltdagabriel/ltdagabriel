@@ -1,0 +1,111 @@
+---
+layout: default
+---
+
+<header class="blog-header">
+    {% if site.logo %}
+      <a class="blog-logo" href="{{ site.url }}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
+    {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+</header>
+
+
+<main class="content" role="main">
+
+    {% if site.tags.featured %}
+    <h5 class="index-headline featured"><span>Featured</span></h5>
+
+    <div class="container featured">
+      {% for post in site.tags.featured %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+			<header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>{{ post.content | strip_html | truncate: 200 }}</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+				<span class="post-tags-set">on 
+					{{#foreach tags}}
+						<span class="post-tag-{{slug}}">
+						{{#if @first}}
+						{{else}}, 
+						{{/if}}
+						<a href="/tag/{{slug}}">{{name}}</a>
+					</span>
+					{{/foreach}}
+				</span>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <h5 class="index-headline normal"><span>Regular</span></h5>
+    {% endif %}
+
+    <div class="cf frame row">
+      {% for post in paginator.posts %}
+        <section class="post col-lg-6 col-md-12 col-sm-12" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item thumbnail text-justify">
+			
+			<img class="img-responsive" style="height:300px" src="{% if post.imagem %}{{ post.imagem }}{% else %}/assets/images/No-Image-Found.jpg {% endif %}">
+			<figcaption class="caption">
+				<header class="post-header">
+				  <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+				</header>
+				<section class="post-excerpt" itemprop="description">
+				  <p>{{ post.content | strip_html | truncate: 200 }}</p>
+				</section>
+				 <div class="post-meta">
+					<time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+				</div>
+			</figcaption>
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <nav class="pagination" role="navigation">
+      {% if paginator.previous_page %}
+        <a class="newer-posts" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="margin-right: 1em">&laquo; Anterior</a>
+      {% else %}
+        <span class="newer-posts" style="margin-right: 1em; opacity: .2">&laquo; Anterior</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em class="page-number">{{ page }}</em>
+        {% elsif page == 1 %}
+          <a class="page-number" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a class="page-number" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a class="older-posts" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" style="margin-left: 1em">Próxima &raquo;</a>
+      {% else %}
+        <span class="older-posts" style="margin-right: 1em; opacity: .2">Próxima &raquo;</span>
+      {% endif %}
+    </nav>
+    {% endif %}
+
+
+    <!-- {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}} -->
+
+</main>

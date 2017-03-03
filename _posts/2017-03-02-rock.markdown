@@ -1,0 +1,46 @@
+---
+layout: post
+title: Rock
+author: igor
+date: '2017-03-02 01:20:00 -0300'
+imagem: assets/images/rock_1.jpg
+image: assets/images/Rock-Guitar-Wallpaper-PC.jpg
+logo: assets/images/rock_and_roll.png
+categories:
+- musica
+- rock
+tags:
+- musica
+- rock
+---
+# Historia do rock
+
+#### Anos 50 - Onde tudo começou
+A mistura de gêneros musicais que foi chamada de rock teve seu início nos anos 50, o estilo começou caindo no gosto dos jovens, os quais se identificavam com o estilo rebelde dos cantores da época, e pouco tempo depois o rock já estava espalhado por todo o mundo.  
+Entre alguma das maiores músicas desta época temos:
+
+- Bill Haley & His Comets - Rock Around The Clock (1954)
+- Elvis Presley - Don't Be Cruel (1956)
+- Chuck Berry - Johnny B. Goode (1958)
+- Richie Valens - La Bamba (1958)
+
+#### Anos 60 - Sexo, drogas e Rock’n’Roll
+Este foi um dos períodos mais populares do rock, aqui temos o surgimento de diversas bandas famosas, entre elas “the beatles”.  
+O rock nesse período contribuíram para movimentos pacifistas e várias manifestações contra a guerra do Vietnã, as letras ficam cada vez mais politizadas, principalmente nas mãos de bob dylan, sua música “all along the watchtower”, principalmente a versão gravada por jimi hendrix se tornou um hino para os soldados da guerra do Vietnã  
+Nesse período, devido ao crescimento do uso de drogas, temos o surgimento do famoso lema: “Sexo, drogas e Rock’n’Roll.”  
+Algumas das principais músicas desse período são:
+
+- The Rolling Stones - (I Can't Get No) Satisfaction (1964)
+- the beatles - twist and shout (1964)
+- The Who - My Generation (1965)
+- Bob Dylan - Like a Rolling Stone (1965)
+- Jimi Hendrix - All Along The Watchtower (1965)
+- The Rolling Stones - Paint It, Black (1966)
+- The Beatles - A Day In The Life (1967)
+- Jimi Hendrix - Hey Joe (1967)
+- The Beatles - Hey Jude (1968)
+- The Rolling Stones - Sympathy For The Devil (1968)
+- Steppenwolf - Born To Be Wild (1968)
+- Elvis Presley - Suspicious Minds (1969)
+- The Beatles - Come Together (1969)
+- Creedence Clearwater Revival - Proud Mary (1969)

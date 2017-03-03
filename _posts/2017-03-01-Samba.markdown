@@ -1,0 +1,36 @@
+---
+layout: post
+title: Samba
+author: gabriel
+date: '2017-03-01 17:00:00 -0300'
+imagem: assets/images/samba.jpg
+image: assets/images/samba-historia.jpg
+categories:
+- musica
+- Samba
+tags:
+- musica
+- Samba
+link: [samba][#samba]
+---
+#samba
+O samba é um gênero musical, o qual deriva de um tipo de dança, de raízes africanas, surgido no Brasil e considerado uma das principais manifestações culturais populares brasileiras.
+
+Dentre suas características originais, está uma forma onde a dança é acompanhada por pequenas frases melódicas e refrões de criação anônima, alicerces do samba de roda nascido no Recôncavo Baiano e levado, na segunda metade do século XIX, para a cidade do Rio de Janeiro pelos negros que trazidos da África, se instalaram na então capital do Império.
+
+Apesar de existir em várias partes do país – especialmente nos Estados da Bahia, de Pernambuco, do Maranhão, de Minas Gerais e de São Paulo – sob a forma de diversos ritmos e danças populares regionais que se originaram do batuque, o samba como gênero musical é entendido como uma expressão musical urbana do Rio de Janeiro, onde esse formato de samba nasceu e se desenvolveu entre o final do século XIX e as primeiras décadas do século XX.
+
+Foi no Rio de Janeiro, que a dança praticada pelos escravos libertos entrou em contato e incorporou outros gêneros musicais tocados na cidade, adquirindo um caráter totalmente singular, que se tornou a identidade do povo brasileiro e ganhou proporção mundial. Desta forma, ainda que existissem diversas formas regionais de samba em outras partes do país,  o samba carioca urbano saiu da categoria local para ser alçado à condição de símbolo da identidade nacional brasileira. No mundo inteiro o nome “Brasil” remete imediatamente ao samba!
+
+Desde a década de 1930, o samba cresceu, modificou-se, atualizou-se sem perder a sua essência, a sua raiz e , ao longo de todos estes anos,  tornou-se patrimônio imaterial do Brasil.
+
+A gravação da música “Pelo Telefone (1917) é considerada como um marco  da história moderna e urbana do samba,  já que “Pelo Telefone” é o primeiro samba a ser gravado no Brasil (segundo os registros da Biblioteca Nacional).
+
+Reivindicada por Donga (Ernesto Santo), com co-autoria atribuída a Mauro de Almeida, na verdade, era uma criação coletiva de músicos que participavam das festas da casa de Tia Ciata, mas acabou registrada por Donga e Almeida na Biblioteca Nacional. Foi a primeira composição a alcançar sucesso com a marca de samba e contribuiria para a divulgação e popularização do gênero. A partir daquele momento, o samba urbano carioca começou a ser difundido pelo país, adquirindo um lugar próprio no mercado musical.
+
+No final da década de 20, com inovações produzidas por compositores  dos bairros do Estácio de Sá , Osvaldo Cruz e dos morros da cidade, o samba começou a ganhar mais originalidade  adquirindo um formato  “genuíno” ou “de raiz” passando a se consolidar no Rio de Janeiro como uma expressão musical urbana e moderna, sendo tocado em larga escala nas rádios, espalhando-se desde os morros cariocas até os bairros da zona sul da cidade.
+
+Inicialmente criminalizado e visto com preconceito, por suas origens negras, a força do samba venceu barreiras, superou os preconceitos e conquistou o público de todas as idades e classes sociais.
+
+Por sua história, suas conquistas, sua originalidade e por ser um ritmo que traduz o sentimento, o jeito de ser, a essência do povo brasileiro, o samba hoje é uma paixão nacional,  que passa de pai para filho e continuará a conquistar gerações.
+
