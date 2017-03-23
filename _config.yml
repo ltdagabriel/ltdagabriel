@@ -4,6 +4,8 @@ gems:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-page
+  - jekyll-content
   - jemoji
 
 # Conversion
